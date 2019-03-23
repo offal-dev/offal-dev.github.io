@@ -1,5 +1,5 @@
-# Offal
+# Project Offal
 
-## What is Offal?
+## What is Project Offal?
 
-## Who is involved with Offal?
+## Who is involved with this project?
