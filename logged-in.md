@@ -2,7 +2,7 @@
 
 <script>
     window.onload = (function() {
-        fetch("https://offal-bot.azurewebsites.net/api/github/me", {  method: "GET", credentials: "include"})
+        fetch("https://offal-bot.azurewebsites.net/api/me", {  method: "GET", credentials: "include"})
             .then((resp) => resp.json())
             .then(function(data) {
                 var element = document.getElementById("content");
