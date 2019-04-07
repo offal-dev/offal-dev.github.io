@@ -6,7 +6,7 @@
             .then((resp) => resp.json())
             .then(function(data) {
                 var element = document.getElementById("content");
-                element.innerHTML = "Your username name is: <strong>" + data.Username + "</strong>"
+                element.innerHTML = "Your username is: <strong>" + data.Username + "</strong>"
             })
             .catch(function() {
                 
