@@ -2,7 +2,7 @@
   "name": "offal-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://offal.dev/",
+  "homepage": "https://www.offal.dev/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
