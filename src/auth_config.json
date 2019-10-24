@@ -1,4 +1,5 @@
 {
     "domain": "offal.eu.auth0.com",
-    "clientId": "aHzNlELTWAQKEdgtZE3aAEgkZPsLSWcl"
+    "clientId": "aHzNlELTWAQKEdgtZE3aAEgkZPsLSWcl",
+    "audience": "API"
   }
