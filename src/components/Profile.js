@@ -14,8 +14,16 @@ const Profile = () => {
   const callApi = async () => {
     try {
       const token = await getTokenSilently();
+      console.log({token: token});
 
-      console.log(token);
+      const response = await fetch("https://offal-bot.azurewebsites.net/api/jwt-test", {
+        headers: {
+          Authorization: `Bearer ${token}`
+        }
+      });
+
+      const responseData = await response.json();
+      console.log(responseData);
     } catch (error) {
       console.error(error);
     }
